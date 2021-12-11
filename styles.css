@@ -29,6 +29,10 @@ body {
   font-weight: 700;
 }
 
+.right {
+  display: flex;
+  gap:24px;
+}
 
 .hero, .content {
   flex: 1;
@@ -45,4 +49,5 @@ a {
 
 .footer {
   text-align: center;
+  padding: 24px 0;
 }
