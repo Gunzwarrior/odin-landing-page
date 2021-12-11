@@ -6,6 +6,43 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-.content {
+.hero, .footer {
+  background-color: #1F2937;
+}
+
+.hero-main-text, .left {
+  color: #f9faf8;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+
+.hero, .content {
   flex: 1;
+}
+
+.hero-second-text, a, .footer {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
 }
